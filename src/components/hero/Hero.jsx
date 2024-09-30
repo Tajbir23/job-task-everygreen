@@ -8,7 +8,7 @@ const Hero = () => {
 
       <div className="mt-10 md:mx-10 md:m-0 flex flex-col-reverse md:flex-row gap-10 items-center h-full w-full">
         <div className="flex flex-col gap-5 md:w-1/2">
-          <h1 className="text-4xl md:text-5xl font-bold text-center md:text-start">Unlock Insights for a Greener Future!</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center md:text-start">Unlock Insights for a Greener Future!</h1>
           <p className="py-5">
             Download our comprehensive whitepaper now and embark on a journey
             towards a more sustainable future.

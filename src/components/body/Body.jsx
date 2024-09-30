@@ -1,12 +1,13 @@
 import { IoIosArrowUp } from "react-icons/io";
 import Websites from "./Websites";
 import Subscribe from "./Subscribe";
+import Certificate from "./Certificate";
 
 const Body = () => {
   return (
     <div>
-      <div className="max-w-[50%] m-auto text-center">
-        <p className="font-abel text-3xl font-thin py-28">
+      <div className="lg:max-w-[50%] md:max-w-[80%] p-5 m-auto text-center">
+        <p className="font-abel text-2xl md:text-3xl font-thin py-28">
           The CO<sub>2</sub> footprint of the Internet&apos;s data centers alone
           may already be comparable to that of global air travel. The good news
           is that a growing number of major Internet corporations are becoming
@@ -17,7 +18,7 @@ const Body = () => {
         <Websites />
 
         <div className="my-24">
-          <p className="font-abel text-3xl font-thin mb-5">
+          <p className="font-abel text-2xl md:text-3xl font-thin mb-5">
             These websites avoid bloated frameworks by using compressed
             graphics, efficient file formats, and lightweight fonts. Check out
             our information on developing sustainable websites and establishing
@@ -27,10 +28,15 @@ const Body = () => {
             <IoIosArrowUp /> Test now
           </button>
         </div>
+      </div>
 
+      <div className="text-center">
         <Subscribe />
       </div>
-      <div></div>
+
+      <div>
+        <Certificate />
+      </div>
     </div>
   );
 };
