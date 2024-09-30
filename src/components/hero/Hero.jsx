@@ -3,10 +3,10 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-l from-emerald-500 to-teal-700 p-5 text-white md:h-screen">
+    <div className="bg-gradient-to-l from-emerald-500 to-teal-700 p-5 text-white md:h-screen overflow-hidden">
       <Navbar />
 
-      <div className="mt-10 md:m-0 flex flex-col-reverse md:flex-row gap-10 items-center h-full w-full">
+      <div className="mt-10 md:mx-10 md:m-0 flex flex-col-reverse md:flex-row gap-10 items-center h-full w-full">
         <div className="flex flex-col gap-5 md:w-1/2">
           <h1 className="text-4xl md:text-5xl font-bold text-center md:text-start">Unlock Insights for a Greener Future!</h1>
           <p className="py-5">
