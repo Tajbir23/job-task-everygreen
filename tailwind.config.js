@@ -9,7 +9,9 @@ export default {
       fontFamily: {
         oswald: ["Oswald", "sans-serif"],
         rumraisin: ["Rum Raisin", "sans-serif"],
-        literata: ["Literata", "serif"]
+        literata: ["Literata", "serif"],
+        abel: ["Abel", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"]
       }
     },
   },
